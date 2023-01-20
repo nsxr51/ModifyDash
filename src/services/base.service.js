@@ -30,7 +30,7 @@ function logout () {
 
 function geturl () {
     if (process.env.NODE_ENV != 'production') {
-        return 'http://10.129.123.214/'
+        return 'http://20.238.101.170'
     } else {
         return ''
     }
